@@ -1,0 +1,92 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+  width: 100%;
+  height: 600px;
+  background-image: url("my-image.webp");
+  margin: 20px auto;
+}
+
+#calculator{
+  width: 300px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  top:50px;
+  border-radius: 5px;
+  background-color: rgb(218, 221, 226);
+}
+
+/*#result{
+  width: 200px;
+  height: 70px;
+}
+*/
+
+#history{
+  height: 40px;
+  text-align: right;
+  color: rgb(190, 192, 196);
+  top: 10px;
+  padding: 15px;
+}
+
+#output{
+  height: 40px;
+  text-align: right;
+  top: 10px;
+  padding: 15px;
+  color: rgb(56, 50, 50);
+}
+
+
+#keys{
+ height: 300px;
+}
+
+
+.operator, .number{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 10px ;
+  align-items: center;
+  border: none;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-left: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.operator:focus, .number:focus{
+  outline: 0;
+}
+
+.operator{
+  background-color: rgb(255, 123, 0);
+}
+
+.number{
+  background-color: rgb(48, 48, 218);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
